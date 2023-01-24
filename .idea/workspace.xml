@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="264efdd0-b0b9-4813-8315-bfef3f66513f" name="Changes" comment="1. Lecture: Primary Datatypes">
-      <change afterPath="$PROJECT_DIR$/src/control/LeapYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/control/Quadratics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operators/Easter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operators/IncrementDecrement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operators/Priority.java" afterDir="false" />
+    <list default="true" id="264efdd0-b0b9-4813-8315-bfef3f66513f" name="Changes" comment="2. Lecture: Controls">
+      <change afterPath="$PROJECT_DIR$/src/control/AddUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/control/Babylon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/control/Deers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/control/MultiplicationTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/control/NumberGuess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/control/ShoeSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/control/TemperatureTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datatypes/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datatypes/Round.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,25 +47,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+    "full.screen.before.presentation.mode": "false",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Quadratics">
-    <configuration name="Easter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operators.Easter" />
-      <module name="ProgrammierenVorlesung" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="operators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="control.LeapYear" />
+  <component name="RunManager" selected="Application.NumberGuess">
+    <configuration name="AddUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="control.AddUp" />
       <module name="ProgrammierenVorlesung" />
       <extension name="coverage">
         <pattern>
@@ -76,21 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Priority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operators.Priority" />
-      <module name="ProgrammierenVorlesung" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="operators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Quadratics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="control.Quadratics" />
+    <configuration name="Babylon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="control.Babylon" />
       <module name="ProgrammierenVorlesung" />
       <extension name="coverage">
         <pattern>
@@ -102,12 +78,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Round" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="datatypes.Round" />
+    <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="control.MultiplicationTable" />
       <module name="ProgrammierenVorlesung" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datatypes.*" />
+          <option name="PATTERN" value="control.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberGuess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="control.NumberGuess" />
+      <module name="ProgrammierenVorlesung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="control.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoeSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="control.ShoeSize" />
+      <module name="ProgrammierenVorlesung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="control.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Quadratics" />
-        <item itemvalue="Application.LeapYear" />
-        <item itemvalue="Application.Easter" />
-        <item itemvalue="Application.Round" />
-        <item itemvalue="Application.Priority" />
+        <item itemvalue="Application.NumberGuess" />
+        <item itemvalue="Application.Babylon" />
+        <item itemvalue="Application.ShoeSize" />
+        <item itemvalue="Application.AddUp" />
+        <item itemvalue="Application.MultiplicationTable" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673357306801</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2. Lecture: Controls">
+      <created>1674140909613</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674140909613</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +174,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init Repository" />
     <MESSAGE value="1. Lecture: Primary Datatypes" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Lecture: Primary Datatypes" />
+    <MESSAGE value="2. Lecture: Controls" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. Lecture: Controls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
