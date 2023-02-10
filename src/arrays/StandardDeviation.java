@@ -1,6 +1,12 @@
 package arrays;
 import java.util.Random;
-
+/**
+ * <h1>Mittelwert und Standardabweichung</h1>
+ * Im Titel genannte Werte errechnen auf Basis von Zufallszahlen
+ *
+ * @see "07_Arrays_Aufgaben-1.pdf"
+ * @author Niklas Buse
+ */
 public class StandardDeviation {
     public static void main(String[] args) {
         int numArray[] = new int[100];
@@ -24,3 +30,13 @@ public class StandardDeviation {
         System.out.printf("Standardabweichung: %f", abweichung);
     }
 }
+
+/* Beispielausführung
+--------------------------------------
+Eingabe: Keine
+--------------------------------------
+Ausgabe:
+Mittelwert: 5,24
+Standardabweichung: 3,309368
+--------------------------------------
+ */

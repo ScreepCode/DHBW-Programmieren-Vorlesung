@@ -1,7 +1,12 @@
 package control;
-
-import javax.sql.rowset.serial.SerialBlob;
-
+/**
+ * <h1>Einmaleins</h1>
+ * <li>Addieren beliebig vieler Eingaben (>0)</li>
+ * <li>Einmal als While Schleife, auskommentiert die Lösung mit do-while</li>
+ *
+ * @see "06_Kontrollstrukturen_Aufgaben.pdf"
+ * @author Niklas Buse
+ */
 public class AddUp {
 
     public static void main(String[] args) {
@@ -33,3 +38,22 @@ public class AddUp {
     }
 
 }
+
+/* Beispielausführung
+--------------------------------------
+Eingabe:
+1
+2
+3
+4
+-1
+--------------------------------------
+Ausgabe:
+Zahl eingeben (<0 für Abbruch): 1
+Zahl eingeben (<0 für Abbruch): 2
+Zahl eingeben (<0 für Abbruch): 3
+Zahl eingeben (<0 für Abbruch): 4
+Zahl eingeben (<0 für Abbruch): -1
+Summe: 10
+--------------------------------------
+ */
