@@ -1,4 +1,4 @@
-package classes;
+package de.niklas.classes;
 
 public class Account {
     private int accountNumber;

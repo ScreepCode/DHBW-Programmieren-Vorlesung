@@ -1,4 +1,4 @@
-package control;
+package de.niklas.control;
 /**
  * <h1>Einmaleins</h1>
  * <li>Addieren beliebig vieler Eingaben (>0)</li>

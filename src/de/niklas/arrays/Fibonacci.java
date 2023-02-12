@@ -1,4 +1,4 @@
-package arrays;
+package de.niklas.arrays;
 /**
  * <h1>Fibonacci-Folge</h1>
  * Fibonacci Folge mithilfe eines Arrays errechnen und ausgeben

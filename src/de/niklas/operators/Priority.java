@@ -1,4 +1,4 @@
-package operators;
+package de.niklas.operators;
 /**
  * <h1>Vorrang von Operatoren</h1>
  * Was gibt das folgende Programm Priority aus?

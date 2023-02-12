@@ -1,4 +1,4 @@
-package control;
+package de.niklas.control;
 /**
  * <h1>Einmaleins</h1>
  * Ausgabe des 1x1 mithilfe einer verschachtelten Vorschleife

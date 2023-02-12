@@ -1,4 +1,4 @@
-package arrays;
+package de.niklas.arrays;
 
 import java.util.Random;
 import java.util.Scanner;

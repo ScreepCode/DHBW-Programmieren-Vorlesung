@@ -1,4 +1,4 @@
-package datatypes;
+package de.niklas.datatypes;
 /**
  * <h1>Überlauf, Zweierkomplement</h1>
  * <li>32767 als Short-Value initialisieren, Wert auf über Maximum erhöhen.</li>

@@ -1,4 +1,4 @@
-package control;
+package de.niklas.control;
 /**
  * <h1>Schuhgrößen</h1>
  * <li>Umrechnen von Zentimeter in Schuhgröße (EU)</li>

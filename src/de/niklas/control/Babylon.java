@@ -1,4 +1,4 @@
-package control;
+package de.niklas.control;
 /**
  * <h1>Babylonisches Wurzelziehen (Heronverfahren)</h1>
  * Ein alter iterativer Algorithmus zur Bestimmung

@@ -1,4 +1,4 @@
-package control;
+package de.niklas.control;
 /**
  * <h1>Schaltjahr</h1>
  * <li>Berechnen, ob ein Jahr ein Schaltjahr ist</li>

@@ -1,4 +1,4 @@
-package control;
+package de.niklas.control;
 /**
  * <h1>Temperaturtabelle</h1>
  * <li>Ausgabe einer Temperaturtabelle von Fahrenheit (f) nach Celsius (c)</li>

@@ -1,4 +1,4 @@
-package arrays;
+package de.niklas.arrays;
 /**
  * <h1>Sieb des Eratostenes*</h1>
  * Der folgende Algorithmus ermittelt alle Primzahlen zwischen 2 und einer vorgegebenen Grenze n.

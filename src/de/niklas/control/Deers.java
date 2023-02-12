@@ -1,4 +1,4 @@
-package control;
+package de.niklas.control;
 /**
  * <h1>Wildbestand</h1>
  * <li>Bestand von Hirschen mit Beginn 200, Abbruch bei über 300</li>

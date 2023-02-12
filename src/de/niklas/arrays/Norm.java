@@ -1,4 +1,4 @@
-package arrays;
+package de.niklas.arrays;
 import java.util.Scanner;
 /**
  * <h1>Betrag eines Vektors</h1>

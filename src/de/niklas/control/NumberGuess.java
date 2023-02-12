@@ -1,4 +1,4 @@
-package control;
+package de.niklas.control;
 
 import java.util.Random;
 /**

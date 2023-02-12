@@ -1,4 +1,4 @@
-package datatypes;
+package de.niklas.datatypes;
 /**
  * <h1>Kaufmännisches Runden (1) & (2)</h1>
  * <li>Casten von Gleitkommazahlen -> Informationsverlust der Nachkommastelle; einfaches Abschneiden</li>

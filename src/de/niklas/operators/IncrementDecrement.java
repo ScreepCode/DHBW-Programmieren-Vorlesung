@@ -1,4 +1,4 @@
-package operators;
+package de.niklas.operators;
 /**
  * <h1>Inkrement und Dekrement</h1>
  * Was gibt das folgende Programm IncrementDecrement aus?

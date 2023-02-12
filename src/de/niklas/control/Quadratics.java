@@ -1,4 +1,4 @@
-package control;
+package de.niklas.control;
 
 public class Quadratics {
 
