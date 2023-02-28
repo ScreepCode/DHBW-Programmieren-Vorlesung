@@ -5,7 +5,7 @@
 > 
 > In den Bearbeitungen findet ihr die Aufgabenstellung in gekürzter Form und Kommentare, die beim Verständnis helfen sollten und eine Beispielausgabe.
 > 
-> #### Bei Fragen oder Anmerkungen zu meinen Lösungen einfach bescheidgeben. ^^
+> #### Bei Fragen oder Anmerkungen zu meinen Lösungen einfach Bescheid geben. ^^
 >
 > ### Bisher aufbereitete Bearbeitungen:
 > - [Aufgaben zu primitiven Datentypen](#content_04)
