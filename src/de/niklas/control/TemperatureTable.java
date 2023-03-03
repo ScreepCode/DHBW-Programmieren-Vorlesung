@@ -1,8 +1,8 @@
 package de.niklas.control;
 /**
- * <h1>Temperaturtabelle</h1>
- * <li>Ausgabe einer Temperaturtabelle von Fahrenheit (f) nach Celsius (c)</li>
- * <li>Formel: c = (5 / 9) * ( f - 32)</li>
+ * <strong>Temperaturtabelle</strong><br>
+ * Ausgabe einer Temperaturtabelle von Fahrenheit (f) nach Celsius (c)
+ * Formel: c = (5 / 9) * ( f - 32)
  *
  * @see "06_Kontrollstrukturen_Aufgaben.pdf"
  * @author Niklas Buse

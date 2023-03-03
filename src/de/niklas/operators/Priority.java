@@ -1,6 +1,6 @@
 package de.niklas.operators;
 /**
- * <h1>Vorrang von Operatoren</h1>
+ * <strong>Vorrang von Operatoren</strong><br>
  * Was gibt das folgende Programm Priority aus?
  *
  * @see "05_Operatoren_Aufgaben.pdf"

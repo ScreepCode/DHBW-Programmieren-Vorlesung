@@ -2,42 +2,82 @@ package de.niklas.classes;
 
 import java.util.Arrays;
 
+/**
+ * <strong>Polynom 2. Grades</strong><br>
+ * Diese Klasse stellt einige Operationen für Polynome 2. Gerades zur Verfügung
+ * Dazu zählen einige einfache Rechenoperationen und die Nullpunktbestimmung
+ *
+ * @see "09_Klassen_Aufgaben-2.pdf"
+ * @author Niklas Buse
+ */
 public class Polynomial {
 
     private double a, b, c;
 
+    /**
+     * Erzeugen eines Polynoms des 2. Gerades
+     * @param a Faktor A
+     * @param b Faktor B
+     * @param c Faktor C
+     */
     public Polynomial(double a, double b, double c) {
         this.a = a;
         this.b = b;
         this.c = c;
     }
 
+    /**
+     * Rückgabe des Faktors A
+     * @return Faktor A
+     */
     public double getA() {
         return a;
     }
 
+    /**
+     * Rückgabe des Faktors B
+     * @return Faktor B
+     */
     public double getB() {
         return b;
     }
 
+    /**
+     * Rückgabe des Faktors C
+     * @return Faktor C
+     */
     public double getC() {
         return c;
     }
 
+    /**
+     * Ausgabe der Funktion als String
+     * @return Funktion als String
+     */
     @Override
     public String toString() {
         return String.format("%.1fx²%s%.1fx%s%.1f",
                 this.getA(),
-                (this.getB() >= 0 ? " + ": " "), this.getB(),
-                (this.getC() >= 0 ? " + ": " "), this.getC()
+                (this.getB() >= 0 ? " + ": " "), this.getB(),   // Hier wird jeweils entschieden, ob in dem String ein "+" für eine positive Zahl hinzugefügt werden muss,
+                (this.getC() >= 0 ? " + ": " "), this.getC()    //  denn negative Zahlen haben automatisch ein "-"
         );
-//        return String.format("%.1fx^2 + %.1fx + %.1f", a, b, c);
+//        return String.format("%.1fx^2 + %.1fx + %.1f", a, b, c); // Hier die Vereinfachte Version, wo es aber zu einem "+ -" kommen kann
     }
 
+    /**
+     * Berechnung und Rückgabe des Funktionswerts für das eingegebene x
+     * @param x x-Wert
+     * @return Funktionswert
+     */
     public double calculateFunctionValue(double x){
         return this.getA() * (x*x) + this.getB() * x + this.getC();
     }
 
+    /**
+     * Dazu addieren von einem anderen Polynom und Rückgabe des daraus resultierendem
+     * @param p2 zu addierendes Polynom
+     * @return Rückgabe des neuen Polynoms
+     */
     public Polynomial addPolynomial(Polynomial p2){
         return new Polynomial(
                 this.getA() + p2.getA(),
@@ -46,6 +86,11 @@ public class Polynomial {
         );
     }
 
+    /**
+     * Davon subtrahieren von einem anderen Polynom und Rückgabe des daraus resultierendem
+     * @param p2 zu subtrahierendes Polynom
+     * @return Rückgabe des neuen Polynoms
+     */
     public Polynomial subPolynomial(Polynomial p2){
         return new Polynomial(
                 this.getA() - p2.getA(),
@@ -54,14 +99,23 @@ public class Polynomial {
         );
     }
 
+    /**
+     * Dazu multiplizieren von einem Skalar und Rückgabe des daraus resultierendem
+     * @param scalar zu multiplizierendem Skalar
+     * @return Rückgabe des neuen Polynoms
+     */
     public Polynomial multiplyPolynomial(double scalar){
         return new Polynomial(
-                this.getA() - scalar,
-                this.getB() - scalar,
-                this.getC() - scalar
+                this.getA() * scalar,
+                this.getB() * scalar,
+                this.getC() * scalar
         );
     }
 
+    /**
+     * Berechnung der Nullpunkte mithilfe der P-Q-Formel
+     * @return Array mit Nullpunkten
+     */
     public double[] calculateRootsPQ(){
         double x1, x2;
         int length = 2;
@@ -86,6 +140,10 @@ public class Polynomial {
         return werte;
     }
 
+    /**
+     * Berechnung der Nullpunkte mithilfe der A-B-C-Formel
+     * @return Array mit Nullpunkten
+     */
     public double[] calculateRootsABC(){
         double discriminant = this.getB() * this.getB() - 4 * this.getA() * this.getC();
         if(discriminant >= 0){
@@ -113,7 +171,7 @@ public class Polynomial {
         System.out.println("P2: " + poly2);
         Polynomial poly3 = poly1.addPolynomial(poly2);
         System.out.println("P3 = P1 + P2: " + poly3);
-        poly3.multiplyPolynomial(2);
+        poly3 = poly3.multiplyPolynomial(2);
         System.out.println("P3 = 2.0 * P3: " + poly3);
         double[] rootsPQ = poly3.calculateRootsPQ();
         double[] rootsABC = poly3.calculateRootsPQ();
@@ -127,3 +185,18 @@ public class Polynomial {
     }
 }
 
+/* Beispielausführung
+--------------------------------------
+Eingabe: Keine
+--------------------------------------
+Ausgabe:
+P1: 2,0x² + 0,0x + 0,0
+P2: 0,0x² -4,0x + 1,0
+P3 = P1 + P2: 2,0x² -4,0x + 1,0
+P3 = 2.0 * P3: 2,0x² -4,0x + 1,0
+Nullstellen von P3 mit PQ(2,0x² -4,0x + 1,0):
+1.7071067811865475 0.2928932188134524
+Nullstellen von P3 mit ABC(2,0x² -4,0x + 1,0):
+[1.7071067811865475, 0.2928932188134524]
+--------------------------------------
+ */

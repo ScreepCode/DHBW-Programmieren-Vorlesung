@@ -1,8 +1,8 @@
 package de.niklas.control;
 /**
- * <h1>Einmaleins</h1>
- * <li>Addieren beliebig vieler Eingaben (>0)</li>
- * <li>Einmal als While Schleife, auskommentiert die Lösung mit do-while</li>
+ * <strong>Einmaleins</strong><br>
+ * Addieren beliebig vieler Eingaben (größer 0)
+ * Einmal als While Schleife, auskommentiert die Lösung mit do-while
  *
  * @see "06_Kontrollstrukturen_Aufgaben.pdf"
  * @author Niklas Buse

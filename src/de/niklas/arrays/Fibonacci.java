@@ -1,6 +1,6 @@
 package de.niklas.arrays;
 /**
- * <h1>Fibonacci-Folge</h1>
+ * <strong>Fibonacci-Folge</strong><br>
  * Fibonacci Folge mithilfe eines Arrays errechnen und ausgeben
  *
  * @see "07_Arrays_Aufgaben-1.pdf"

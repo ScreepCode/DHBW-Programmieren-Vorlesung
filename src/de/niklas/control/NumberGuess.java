@@ -2,12 +2,12 @@ package de.niklas.control;
 
 import java.util.Random;
 /**
- * <h1>Zahlenraten</h1>
+ * <strong>Zahlenraten</strong><br>
  * Das Programm, welches vermutlich am weitesten von den Musterlösung abschweift.
- * <li>Mindestanforderungen: </li>
- * <li>- Ratespiel von Zahlen zwischen 1 und 100; Hinweise ob höher oder kleiner ; Zählen der Versuche</li>
- * <li>- Eingabe von Name, Zahlen und Endabfrage, ob beendet werden soll </li>
- * <li>Mein Zusatz: Alles abfangen, was Fehler erzeugen könnte & Session Statistiken </li>
+ * Mindestanforderungen: 
+ * - Ratespiel von Zahlen zwischen 1 und 100; Hinweise ob höher oder kleiner ; Zählen der Versuche
+ * - Eingabe von Name, Zahlen und Endabfrage, ob beendet werden soll 
+ * Mein Zusatz: Alles abfangen, was Fehler erzeugen könnte und Session Statistiken 
  *
  * @see "06_Kontrollstrukturen_Aufgaben.pdf"
  * @author Niklas Buse

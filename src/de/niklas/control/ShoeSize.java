@@ -1,9 +1,9 @@
 package de.niklas.control;
 /**
- * <h1>Schuhgrößen</h1>
- * <li>Umrechnen von Zentimeter in Schuhgröße (EU)</li>
- * <li>Rechnung: Schuhgröße = Zentimeter * 1,5</li>
- * <li>(Zusatz: Möglichst wenig zwischenspeichern</li>
+ * <strong>Schuhgrößen</strong><br>
+ * Umrechnen von Zentimeter in Schuhgröße (EU)
+ * Rechnung: Schuhgröße = Zentimeter * 1,5
+ * (Zusatz: Möglichst wenig zwischenspeichern
  *
  * @see "06_Kontrollstrukturen_Aufgaben.pdf"
  * @author Niklas Buse

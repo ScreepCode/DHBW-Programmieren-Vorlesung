@@ -1,7 +1,7 @@
 package de.niklas.datatypes;
 /**
- * <h1>Überlauf, Zweierkomplement</h1>
- * <li>32767 als Short-Value initialisieren, Wert auf über Maximum erhöhen.</li>
+ * <strong>Überlauf, Zweierkomplement</strong><br>
+ * 32767 als Short-Value initialisieren, Wert auf über Maximum erhöhen.
  *
  * @see "04_Primitive_Datentypen_Aufgaben.pdf"
  * @author  Niklas Buse

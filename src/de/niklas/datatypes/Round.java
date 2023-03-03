@@ -1,8 +1,8 @@
 package de.niklas.datatypes;
 /**
- * <h1>Kaufmännisches Runden (1) & (2)</h1>
- * <li>Casten von Gleitkommazahlen -> Informationsverlust der Nachkommastelle; einfaches Abschneiden</li>
- * <li>Kaufmännisches Runden mit boolischen Ausdrücken -> ab 0,5 immer aufrunden</li>
+ * <strong>Kaufmännisches Runden (1) und (2)</strong><br>
+ * Casten von Gleitkommazahlen - Informationsverlust der Nachkommastelle; einfaches Abschneiden
+ * Kaufmännisches Runden mit boolischen Ausdrücken - ab 0,5 immer aufrunden
  *
  * @see "04_Primitive_Datentypen_Aufgaben.pdf &
  *          05_Operatoren_Aufgaben.pdf"

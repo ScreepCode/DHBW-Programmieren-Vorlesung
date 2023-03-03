@@ -2,7 +2,7 @@ package de.niklas.arrays;
 
 import java.util.Scanner;
 /**
- * <h1>Skalarprodukt zweier Vektoren</h1>
+ * <strong>Skalarprodukt zweier Vektoren</strong><br>
  * Einlesen von 2 Vektoren mit vorher angegebener Komponenten Anzahl; Ausgabe von dessen Skalarprodukt
  *
  * @see "07_Arrays_Aufgaben-1.pdf"

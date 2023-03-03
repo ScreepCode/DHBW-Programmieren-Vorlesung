@@ -1,5 +1,13 @@
 package de.niklas.classes.vehicles;
 
+/**
+ * <strong>Fahrzeuge, Wettrennen</strong><br>
+ * Simulation eines Wettrennens;
+ * Genauere Details im Aufgabenblatt
+ *
+ * @see "13_Vererbung_Aufgaben-1.pdf"
+ * @author Niklas Buse
+ */
 public class Race {
     public static void main(String[] args) {
         Vehicle[] vehicles = new Vehicle[4];
@@ -19,3 +27,15 @@ public class Race {
         }
     }
 }
+
+/* Beispielausführung
+--------------------------------------
+Eingabe: Keine
+--------------------------------------
+Ausgabe:
+Bicycle at position 100,0 km with 2 wheels at speed 20,0 km/h of max. 30,0 km/h.
+Car at position 140,0 km with 4 wheels at speed 140,0 km/h of max. 140,0 km/h.
+RacingCar at position 200,0 km with 4 wheels at speed 200,0 km/h of max. 220,0 km/h.
+Ambulance at position 80,0 km with 4 wheels at speed 80,0 km/h of max. 140,0 km/h. Signal on.
+--------------------------------------
+ */

@@ -28,11 +28,11 @@
 
 ### Aufgaben zu primitiven Datentypen <a name="content_04"></a>
 > - [Überlauf, Zweierkomplement ](src/de/niklas/datatypes/ShortValue.java)
-> - [Kaufmännisches Runden (1) & (2)](src/de/niklas/datatypes/Round.java)
+> - [Kaufmännisches Runden (1) und (2)](src/de/niklas/datatypes/Round.java)
 
 ### Aufgaben zu Operatoren <a name="content_05"></a>
 > - [Inkrement und Dekrement](src/de/niklas/operators/IncrementDecrement.java)
-> - [Kaufmännisches Runden (1) & (2)](src/de/niklas/datatypes/Round.java)
+> - [Kaufmännisches Runden (1) und (2)](src/de/niklas/datatypes/Round.java)
 > - [Ostertermin berechnen](src/de/niklas/operators/Easter.java)
 > - [Vorrang von Operatoren](src/de/niklas/operators/Priority.java)
 

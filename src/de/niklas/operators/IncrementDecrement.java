@@ -1,6 +1,6 @@
 package de.niklas.operators;
 /**
- * <h1>Inkrement und Dekrement</h1>
+ * <strong>Inkrement und Dekrement</strong><br>
  * Was gibt das folgende Programm IncrementDecrement aus?
  *
  * @see "05_Operatoren_Aufgaben.pdf"

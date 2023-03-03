@@ -1,7 +1,7 @@
 package de.niklas.arrays;
 import java.util.Random;
 /**
- * <h1>Mittelwert und Standardabweichung</h1>
+ * <strong>Mittelwert und Standardabweichung</strong><br>
  * Im Titel genannte Werte errechnen auf Basis von Zufallszahlen
  *
  * @see "07_Arrays_Aufgaben-1.pdf"

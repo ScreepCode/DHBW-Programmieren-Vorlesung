@@ -3,7 +3,7 @@ package de.niklas.arrays;
 import java.util.Random;
 import java.util.Scanner;
 /**
- * <h1>Subtraktion zweier Matrizen</h1>
+ * <strong>Subtraktion zweier Matrizen</strong><br>
  * Hier werden 2 Matrizen mit eingegebener Größe mit zufälligen Zahlen generiert und voneinander subtrahiert.
  *
  * @see "07_Arrays_Aufgaben-2.pdf"

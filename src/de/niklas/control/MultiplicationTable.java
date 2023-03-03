@@ -1,6 +1,6 @@
 package de.niklas.control;
 /**
- * <h1>Einmaleins</h1>
+ * <strong>Einmaleins</strong><br>
  * Ausgabe des 1x1 mithilfe einer verschachtelten Vorschleife
  *
  * @see "06_Kontrollstrukturen_Aufgaben.pdf"

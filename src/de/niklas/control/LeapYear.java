@@ -1,8 +1,8 @@
 package de.niklas.control;
 /**
- * <h1>Schaltjahr</h1>
- * <li>Berechnen, ob ein Jahr ein Schaltjahr ist</li>
- * <li>Regeln: Jahreszahl/4 und nicht durch 100; Oder durch 400</li>
+ * <strong>Schaltjahr</strong><br>
+ * Berechnen, ob ein Jahr ein Schaltjahr ist
+ * Regeln: Jahreszahl/4 und nicht durch 100; Oder durch 400
  *
  * @see "06_Kontrollstrukturen_Aufgaben.pdf"
  * @author Niklas Buse

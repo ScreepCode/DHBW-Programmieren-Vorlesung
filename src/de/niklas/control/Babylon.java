@@ -1,6 +1,6 @@
 package de.niklas.control;
 /**
- * <h1>Babylonisches Wurzelziehen (Heronverfahren)</h1>
+ * <strong>Babylonisches Wurzelziehen (Heronverfahren)</strong><br>
  * Ein alter iterativer Algorithmus zur Bestimmung
  *   einer rationalen Näherung der Quadratwurzel einer Zahl
  *

@@ -1,7 +1,7 @@
 package de.niklas.arrays;
 import java.util.Scanner;
 /**
- * <h1>Betrag eines Vektors</h1>
+ * <strong>Betrag eines Vektors</strong><br>
  * Einlesen der Anzahl der Vektorkomponenten und Ausgabe von dem Betrag (auf zwei Nachkommastellen gerundet)
  *
  * @see "07_Arrays_Aufgaben-1.pdf"

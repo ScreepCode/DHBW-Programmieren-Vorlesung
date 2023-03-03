@@ -1,6 +1,6 @@
 package de.niklas.arrays;
 /**
- * <h1>Pascalsches Dreieck</h1>
+ * <strong>Pascalsches Dreieck</strong><br>
  * Berechnung: Die "drüber liegenden Elemente" ergeben addiert das unterliegende + Randzahlen = 1
  *
  * @see "07_Arrays_Aufgaben-2.pdf"

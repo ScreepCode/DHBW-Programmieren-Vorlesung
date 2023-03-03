@@ -1,8 +1,8 @@
 package de.niklas.control;
 /**
- * <h1>Wildbestand</h1>
- * <li>Bestand von Hirschen mit Beginn 200, Abbruch bei über 300</li>
- * <li>10% Zuwachs jährlich + Jahresende -15 durch Abschuss</li>
+ * <strong>Wildbestand</strong><br>
+ * Bestand von Hirschen mit Beginn 200, Abbruch bei über 300
+ * 10% Zuwachs jährlich + Jahresende -15 durch Abschuss
  *
  * @see "06_Kontrollstrukturen_Aufgaben.pdf"
  * @author Niklas Buse

@@ -2,7 +2,7 @@ package de.niklas.arrays;
 
 import java.util.Scanner;
 /**
- * <h1>Bubblesort</h1>
+ * <strong>Bubblesort</strong><br>
  * Integration des Bubblesort Algorithmus. Kurzerklärung: Nebeneinanderliegende Elemente vergleichen und ggf. tauschen.
  *
  * @see "07_Arrays_Aufgaben-1.pdf"

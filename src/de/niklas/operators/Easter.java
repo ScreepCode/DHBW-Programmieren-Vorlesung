@@ -1,6 +1,6 @@
 package de.niklas.operators;
 /**
- * <h1>Ostertermin berechnen</h1>
+ * <strong>Ostertermin berechnen</strong><br>
  * Aufgrundlage des Jahres wird berechnet, an welchem Termin Ostersonntag liegt
  *
  * @see "05_Operatoren_Aufgaben.pdf"
