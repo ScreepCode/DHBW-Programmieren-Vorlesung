@@ -19,6 +19,7 @@
 > - [Aufgaben zu Strings](#content_10)
 > - [Aufgaben zu Methoden](#content_11)
 > - [Aufgaben zu Vererbung (1)](#content_13.1)
+> - [Aufgaben zu Vererbung (2)](#content_13.2)
 >
 > ### ️⭐ Merkt euch gerne dieses Repository und wenn ihr mögt gebt auch gerne einen ⭐
 
@@ -85,3 +86,6 @@
 
 ### Aufgaben zu Vererbung (1) <a name="content_13.1"></a>
 > - [Fahrzeuge, Wettrennen](src/de/niklas/classes/vehicles/Race.java)
+
+### Aufgaben zu Vererbung (2) <a name="content_13.2"></a>
+> - [Periodensystem](src/de/niklas/classes/periodic/PeriodicTable.java)
