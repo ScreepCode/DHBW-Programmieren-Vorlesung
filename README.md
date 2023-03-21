@@ -20,6 +20,9 @@
 > - [Aufgaben zu Methoden](#content_11)
 > - [Aufgaben zu Vererbung (1)](#content_13.1)
 > - [Aufgaben zu Vererbung (2)](#content_13.2)
+> - [Aufgaben zu Input/Output (1)](#content_15.1)
+> - [Aufgaben zu Input/Output (2)](#content_15.2)
+> - [Aufgaben zu Input/Output (3)](#content_15.3)
 >
 > ### ️⭐ Merkt euch gerne dieses Repository und wenn ihr mögt gebt auch gerne einen ⭐
 
@@ -89,3 +92,15 @@
 
 ### Aufgaben zu Vererbung (2) <a name="content_13.2"></a>
 > - [Periodensystem](src/de/niklas/classes/periodic/PeriodicTable.java)
+
+### Aufgaben zu Input/Output (1) <a name="content_15.1"></a>
+> - [Arbeiten mit Dateien](src/de/niklas/io/FileExperiments.java)
+> - [Quersummen speichern](src/de/niklas/io/CrossTotalFile.java)
+
+### Aufgaben zu Input/Output (2) <a name="content_15.2"></a>
+> - [Palindrome speichern](src/de/niklas/io/PalindromeFile.java)
+> - [Teil einer Datei ](src/de/niklas/io/TextfileLines.java)
+
+### Aufgaben zu Input/Output (3) <a name="content_15.3"></a>
+> - [Zugriff auf eine Textdatei](src/de/niklas/io/TextFile.java)
+> - [Primzahlen speichern und lesen*](src/de/niklas/io/PrimesFile.java)

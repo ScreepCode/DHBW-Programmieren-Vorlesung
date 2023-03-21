@@ -1,0 +1,10 @@
+Die Quersumme von 123 ist 6.
+Die Quersumme von 234 ist 9.
+Die Quersumme von 369246 ist 30.
+Die Quersumme von 123 ist 6.
+Die Quersumme von 43770 ist 21.
+Die Quersumme von 1234567890 ist 45.
+Die Quersumme von 0987654321 ist 45.
+Die Quersumme von 3456 ist 18.
+Die Quersumme von 123 ist 6.
+Die Quersumme von 12354 ist 15.
