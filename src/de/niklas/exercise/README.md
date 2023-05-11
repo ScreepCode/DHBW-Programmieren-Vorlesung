@@ -1,0 +1,95 @@
+> ### Bisher aufbereitete Bearbeitungen:
+> - [Aufgaben zu primitiven Datentypen](#content_04)
+> - [Aufgaben zu Operatoren](#content_05)
+> - [Aufgaben zu Kontrollstrukturen](#content_06)
+> - [Aufgaben zu Arrays (1)](#content_07.1)
+> - [Aufgaben zu Arrays (2)](#content_07.2)
+> - [Aufgaben zu Klassen (1)](#content_09.1)
+> - [Aufgaben zu Klassen (2)](#content_09.2)
+> - [Aufgaben zu Klassen (3)](#content_09.3)
+> - [Aufgaben zu Strings](#content_10)
+> - [Aufgaben zu Methoden](#content_11)
+> - [Aufgaben zu Vererbung (1)](#content_13.1)
+> - [Aufgaben zu Vererbung (2)](#content_13.2)
+> - [Aufgaben zu Input/Output (1)](#content_15.1)
+> - [Aufgaben zu Input/Output (2)](#content_15.2)
+> - [Aufgaben zu Input/Output (3)](#content_15.3)
+>
+
+
+## 📗 Dateiauflistung <a name="content"></a>
+
+### Aufgaben zu primitiven Datentypen <a name="content_04"></a>
+> - [Überlauf, Zweierkomplement ](datatypes/ShortValue.java)
+> - [Kaufmännisches Runden (1) und (2)](datatypes/Round.java)
+
+### Aufgaben zu Operatoren <a name="content_05"></a>
+> - [Inkrement und Dekrement](operators/IncrementDecrement.java)
+> - [Kaufmännisches Runden (1) und (2)](datatypes/Round.java)
+> - [Ostertermin berechnen](operators/Easter.java)
+> - [Vorrang von Operatoren](operators/Priority.java)
+
+### Aufgaben zu Kontrollstrukturen <a name="content_06"></a>
+> - [Schaltjahr](control/LeapYear.java)
+> - [Temperaturtabelle](control/TemperatureTable.java)
+> - [Wildbestand](control/Deers.java)
+> - [Einmaleins](control/MultiplicationTable.java)
+> - [Aufsummieren](control/AddUp.java)
+> - [Schuhgrößen](control/ShoeSize.java)
+> - [Babylonisches Wurzelziehen (Heronverfahren)](control/Babylon.java)
+> - [Zahlenraten](control/NumberGuess.java)
+
+### Aufgaben zu Arrays (1) <a name="content_07.1"></a>
+> - [Mittelwert und Standardabweichung](arrays/StandardDeviation.java)
+> - [Fibonacci-Folge](arrays/Fibonacci.java)
+> - [Sieb des Eratostenes*](arrays/Eratostenes.java)
+> - [Betrag eines Vektors](arrays/Norm.java)
+> - [Skalarprodukt zweier Vektoren](arrays/DotProduct.java)
+> - [Sortieren mit Bubblesort](arrays/BubbleSort.java)
+
+### Aufgaben zu Arrays (2) <a name="content_07.2"></a>
+> - [Subtraktion zweier Matrizen](arrays/MatrixSubtraction.java)
+> - [Pascalsches Dreieck](arrays/Pascal.java)
+
+### Aufgaben zu Klassen (1) <a name="content_09.1"></a>
+> - [Radio](classes/Radio.java)
+> - [Zweidimensionaler Punkt](classes/Point.java)
+> - [Bankkonto](classes/Account.java)
+
+### Aufgaben zu Klassen (2) <a name="content_09.2"></a>
+> - [Polynom 2. Grades](classes/Polynomial.java)
+> - [Komplexe Zahlen](classes/Complex.java)
+> - [Polynome und Horner-Schema](classes/Horner.java)
+
+### Aufgaben zu Klassen (3) <a name="content_09.3"></a>
+> - [Nimmspiel](classes/Nimmspiel.java)
+> - [Lotto](classes/Lotto.java)
+> - [MasterMind](classes/MasterMind.java)
+
+### Aufgaben zu Strings <a name="content_10"></a>
+> - [Quersumme](strings/CrossTotal.java)
+> - [Palindrom](strings/Palindrome.java)
+> - [Römische Zahlen](strings/RomanNumber.java)
+
+### Aufgaben zu Methoden <a name="content_11"></a>
+> - [Potenzen](methods/Exponentiation.java)
+> - [Fibonacci-Zahlen rekursiv ](methods/Fibonacci.java)
+> - [Quicksort*](methods/Quicksort.java)
+
+### Aufgaben zu Vererbung (1) <a name="content_13.1"></a>
+> - [Fahrzeuge, Wettrennen](classes/vehicles/Race.java)
+
+### Aufgaben zu Vererbung (2) <a name="content_13.2"></a>
+> - [Periodensystem](classes/periodic/PeriodicTable.java)
+
+### Aufgaben zu Input/Output (1) <a name="content_15.1"></a>
+> - [Arbeiten mit Dateien](io/FileExperiments.java)
+> - [Quersummen speichern](io/CrossTotalFile.java)
+
+### Aufgaben zu Input/Output (2) <a name="content_15.2"></a>
+> - [Palindrome speichern](io/PalindromeFile.java)
+> - [Teil einer Datei ](io/TextfileLines.java)
+
+### Aufgaben zu Input/Output (3) <a name="content_15.3"></a>
+> - [Zugriff auf eine Textdatei](io/TextFile.java)
+> - [Primzahlen speichern und lesen*](io/PrimesFile.java)
