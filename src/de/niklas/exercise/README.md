@@ -14,6 +14,9 @@
 > - [Aufgaben zu Input/Output (1)](#content_15.1)
 > - [Aufgaben zu Input/Output (2)](#content_15.2)
 > - [Aufgaben zu Input/Output (3)](#content_15.3)
+> - ------
+> - [Aufgaben zu GUI/Swing (1)](#content_20.1)
+> - [Aufgaben zu GUI/Swing (2)](#content_20.2)
 >
 
 
@@ -93,3 +96,14 @@
 ### Aufgaben zu Input/Output (3) <a name="content_15.3"></a>
 > - [Zugriff auf eine Textdatei](io/TextFile.java)
 > - [Primzahlen speichern und lesen*](io/PrimesFile.java)
+
+------
+
+### Aufgaben zu GUI/Swing (1) <a name="content_20.1"></a>
+> - [Swing-Grundkomponenten](ui/ComponentFrame.java)
+> - [Frame mit Text](ui/TextFrame.java)
+
+### Aufgaben zu GUI/Swing (2) <a name="content_20.2"></a>
+> - [Datei auswählen und zeilenweise darstellen](ui/TextfileViewer.java)
+> - [Währungsumrechner](ui/CurrencyCalculator.java)
+> - [Editor](ui/editor/EditorSimple.java)
