@@ -11,7 +11,7 @@
 >
 > ### Inhalte:
 > - [Aufgaben aus der Vorlesung](src/de/niklas/exercise)
-> - [Probeklausuren](src/de/niklas/mock_exam)
+> - [Probeklausuren](src/de/niklas/exams)
 > 
 
 
