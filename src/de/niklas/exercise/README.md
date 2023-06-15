@@ -17,7 +17,9 @@
 > - ------
 > - [Aufgaben zu GUI/Swing (1)](#content_20.1)
 > - [Aufgaben zu GUI/Swing (2)](#content_20.2)
->
+> - [Aufgaben zu Events (1)](#content_21.1)
+> - [Aufgaben zu Events (2)](#content_21.1)
+> - [Aufgabe zu Zeichnen](#content_22)
 
 
 ## 📗 Dateiauflistung <a name="content"></a>
@@ -107,3 +109,16 @@
 > - [Datei auswählen und zeilenweise darstellen](ui/TextfileViewer.java)
 > - [Währungsumrechner](ui/CurrencyCalculator.java)
 > - [Editor](ui/editor/EditorSimple.java)
+
+### Aufgaben zu Events (1)  <a name="content_21.1"></a>
+> - [Währungsumrechner (2)](ui/event/CurrencyCalculator.java)
+> - [Body-Mass-Index (BMI)](ui/event/BMICalculator.java)
+> - [Binäre Zahlen](ui/event/BinaryNumber.java)
+> - [Zahlenraten (2)](ui/event/NumberGuess.java)
+
+### Aufgaben zu Events (2)  <a name="content_21.2"></a>
+> - [Editor](ui/editor/Editor.java)
+> - [Hütchenspiel](ui/event/ShellGame.java)
+
+### Aufgabe zu Zeichnen  <a name="content_22"></a>
+> - [Wahl](ui/paint/Election.java)

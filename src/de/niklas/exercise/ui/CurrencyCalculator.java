@@ -3,6 +3,13 @@ package de.niklas.exercise.ui;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * <strong>Währungsumrechner</strong><br>
+ * Einen Mini Währungsrechner ohne Funktion
+ *
+ * @see "20_Swing_Aufgaben-2.pdf"
+ * @author Niklas Buse
+ */
 public class CurrencyCalculator extends JFrame {
 
     public CurrencyCalculator(){
