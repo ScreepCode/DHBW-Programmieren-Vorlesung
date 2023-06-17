@@ -20,6 +20,7 @@
 > - [Aufgaben zu Events (1)](#content_21.1)
 > - [Aufgaben zu Events (2)](#content_21.1)
 > - [Aufgabe zu Zeichnen](#content_22)
+> - [Aufgaben zu Datenstrukturen (1)](#content_23.1)
 
 
 ## 📗 Dateiauflistung <a name="content"></a>
@@ -122,3 +123,7 @@
 
 ### Aufgabe zu Zeichnen  <a name="content_22"></a>
 > - [Wahl](ui/paint/Election.java)
+
+### Aufgaben zu Datenstrukturen (1) <a name="content_23.1"></a>
+> - [Ziehung der Lottozahlen](collections/Lottery.java)
+> - [Bücherei](collections/Library.java)
