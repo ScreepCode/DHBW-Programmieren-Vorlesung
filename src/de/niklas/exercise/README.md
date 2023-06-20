@@ -21,6 +21,9 @@
 > - [Aufgaben zu Events (2)](#content_21.1)
 > - [Aufgabe zu Zeichnen](#content_22)
 > - [Aufgaben zu Datenstrukturen (1)](#content_23.1)
+> - [Aufgaben zu Datenstrukturen (2)](#content_23.2)
+> - [Aufgaben zu Datenstrukturen (3)](#content_23.3)
+> - [Aufgaben zu Aufzählungstypen](#content_24)
 
 
 ## 📗 Dateiauflistung <a name="content"></a>
@@ -127,3 +130,14 @@
 ### Aufgaben zu Datenstrukturen (1) <a name="content_23.1"></a>
 > - [Ziehung der Lottozahlen](collections/Lottery.java)
 > - [Bücherei](collections/Library.java)
+
+### Aufgaben zu Datenstrukturen (2) <a name="content_23.2"></a>
+> - [Binärbaum](collections/BinaryTree.java)
+
+### Aufgaben zu Datenstrukturen (3) <a name="content_23.3"></a>
+> - [Tankstellenpreise](collections/GasStations.java)
+
+### Aufgaben zu Aufzählungstypen <a name="content_24"></a>
+> - [Monate](enums/Months.java)
+> - [Kartenspiel](enums/cards/CardGame.java)
+> - [Sortierkriterien](enums/library/Attributes.java)
