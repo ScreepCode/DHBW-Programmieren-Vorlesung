@@ -24,7 +24,8 @@
 > - [Aufgaben zu Datenstrukturen (2)](#content_23.2)
 > - [Aufgaben zu Datenstrukturen (3)](#content_23.3)
 > - [Aufgaben zu Aufzählungstypen](#content_24)
-
+> - [Aufgaben zu Threads (1)](#content_25.1)
+> - [Aufgaben zu Threads (2)](#content_25.2)
 
 ## 📗 Dateiauflistung <a name="content"></a>
 
@@ -137,7 +138,10 @@
 ### Aufgaben zu Datenstrukturen (3) <a name="content_23.3"></a>
 > - [Tankstellenpreise](collections/GasStations.java)
 
-### Aufgaben zu Aufzählungstypen <a name="content_24"></a>
-> - [Monate](enums/Months.java)
-> - [Kartenspiel](enums/cards/CardGame.java)
-> - [Sortierkriterien](enums/library/Attributes.java)
+### Aufgaben zu Threads (1) <a name="content_25.1"></a>
+> - [Tanzende Schrift](threads/DancingText.java)
+> - [Ampel](threads/TrafficLight.java)
+
+### Aufgaben zu Threads (2) <a name="content_25.1"></a>
+> - [Synchronisation](threads/buffer/MyBuffer.java)
+> - [Suchmaschine](threads/search/SearchEngine.java)
