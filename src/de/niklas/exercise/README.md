@@ -145,3 +145,7 @@
 ### Aufgaben zu Threads (2) <a name="content_25.1"></a>
 > - [Synchronisation](threads/buffer/MyBuffer.java)
 > - [Suchmaschine](threads/search/SearchEngine.java)
+
+### Aufgaben zu Java 8 <a name="content_26"></a>
+> - [Arbeiten mit Streams](java8/soccer/Soccer.java)
+> - [Zahlenraten (3)](java8/NumberGuessJava8.java)
