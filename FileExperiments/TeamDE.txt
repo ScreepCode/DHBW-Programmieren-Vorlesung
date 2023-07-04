@@ -1,0 +1,23 @@
+1;Manuel Neuer;Torwart;27.03.1986;Bayern München;77;0
+22;Marc-André ter Stegen;Torwart;30.04.1992;FC Barcelona;20;0
+12;Kevin Trapp;Torwart;08.07.1990;Paris Saint-Germain;3;0
+17;Jérôme Boateng;Abwehr;03.09.1988;Bayern München;72;1
+4;Matthias Ginter;Abwehr;19.01.1994;Borussia Mönchengladbach;18;0
+3;Jonas Hector;Abwehr;27.05.1990;1. FC Köln;38;3
+5;Mats Hummels;Abwehr;16.12.1988;Bayern München;65;5
+18;Joshua Kimmich;Abwehr;08.02.1995;Bayern München;30;3
+2;Marvin Plattenhardt;Abwehr;26.01.1992;Hertha BSC;7;0
+16;Antonio Rüdiger;Abwehr;03.03.1993;FC Chelsea;24;1
+15;Niklas Süle;Abwehr;03.09.1995;Bayern München;11;0
+20;Julian Brandt;Mittelfeld/Sturm;02.05.1996;Bayer 04 Leverkusen;17;1
+7;Julian Draxler;Mittelfeld/Sturm;20.09.1993;Paris Saint-Germain;45;6
+23;Mario Gomez;Mittelfeld/Sturm;10.07.1985;VfB Stuttgart;76;31
+14;Leon Goretzka;Mittelfeld/Sturm;06.02.1995;FC Schalke 04;15;6
+21;Ilkay Gündogan;Mittelfeld/Sturm;24.10.1990;Manchester City;26;4
+6;Sami Khedira;Mittelfeld/Sturm;04.04.1987;Juventus Turin;76;7
+8;Toni Kroos;Mittelfeld/Sturm;04.01.1990;Real Madrid;84;12
+13;Thomas Müller;Mittelfeld/Sturm;13.09.1989;Bayern München;92;38
+10;Mesut Özil;Mittelfeld/Sturm;15.10.1988;FC Arsenal;91;23
+11;Marco Reus;Mittelfeld/Sturm;31.05.1989;Borussia Dortmund;32;9
+19;Sebastian Rudy;Mittelfeld/Sturm;28.02.1990;Bayern München;25;1
+9;Timo Werner;Mittelfeld/Sturm;06.03.1996;RB Leipzig;15;8

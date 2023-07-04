@@ -13,9 +13,17 @@ import java.util.concurrent.*;
  */
 public class SearchEngine {
 
-    public List<String> urls = new LinkedList<String>();
+    private final ExecutorService exec;
+    private final List<PageLoader> loaders;
 
+    public List<String> urls = new LinkedList<>();
     public static final int MAXTHREADS = 3;
+
+    public SearchEngine(){
+        this.exec = Executors.newFixedThreadPool(MAXTHREADS);
+        this.loaders = new LinkedList<>();
+    }
+
 
     /**
      * Laden der URLs
@@ -34,42 +42,28 @@ public class SearchEngine {
     }
 
     /**
-     * Ausführenung der PageLoader Threads
-     * Diese Lösung ist nach der Aufgabe her nicht korrekt, da hier überprüft und ausgeben soll.
-     * Korrektur und eigene Implementierung ist exec2
+     * Ausführung der PageLoader Threads
      */
-    public void exec (){
-        this.loadURLs("FileExperiments/urls.txt"); // Laden der URLs
-        ExecutorService exec = Executors.newFixedThreadPool(MAXTHREADS); // Thread Pool in der Größe der Konstante
-        while (!this.urls.isEmpty()) {
-            PageLoader pl = new PageLoader(this.urls.remove(0)); // Nutzen der nächsten Links + Löschen aus der Liste
-            exec.execute(pl); // Ausführen der Run Methode des Page Loaders
-        }
-        exec.shutdown();
-    }
+    public void exec() {
+        for (String url : urls) {
+            System.out.printf("Started: %s%n", url);
+            PageLoader newLoader = new PageLoader(url);
+            this.loaders.add(newLoader);
+            this.exec.execute(newLoader);
 
-    /**
-     * Ausführung der PageThreads;
-     * es wird eine LinkedList erzeugt, in der die Threads in Startreihenfolge reingepackt werden.
-     * Danach wird das vordere Element überprüft, ob es schon fertig ist und dann ggf. ausgegeben, entfernt und Platz für den nächsten Thread.
-     * Diese Implementierung ist NICHT optimal, da die Ladezeiten variieren können und somit das andere Elemente als das vordere schon fertig sein könnte
-     */
-    public void exec2(){
-        this.loadURLs("FileExperiments/urls.txt"); // Laden der URLs
-        Queue<PageLoader> pagesThreads = new LinkedList<>(); // Eine Queue, das FIFO Prinzip zu haben
-        while (!this.urls.isEmpty() | !pagesThreads.isEmpty()){ // Solange es noch URLs gibt, oder in der Liste noch Threads laufen
-            if(pagesThreads.size() < MAXTHREADS & !this.urls.isEmpty()){ // Nur neue Threads starten, wenn die MaxThreads noch nicht überschritten sind
-                PageLoader page = new PageLoader(this.urls.remove(0));
-                pagesThreads.add(page);
-                new Thread(page).start();
+            while (!this.loaders.isEmpty()) {
+                Iterator<PageLoader> iterator = loaders.iterator();
+
+                while (iterator.hasNext()) {
+                    PageLoader page = iterator.next();
+                    if (page.pageLoaded()) {
+                        String content = page.getPageContent();
+                        System.out.printf("Finished: %s\n%s\n...\n", page.getUrl(), content.strip().substring(0, (Math.min(content.length(), 100))));
+                        iterator.remove(); // remove current element from list
+                    }
+                }
             }
-            if(pagesThreads.element().pageLoaded()){ // Wenn das vordere Element fertig ist
-                PageLoader page = pagesThreads.remove(); // Nehme es aus der Liste raus, damit der nächste Thread gestartet werden kann
-                String content = page.getPageContent();
-                System.out.printf("------\nGeladen: %s \nInhalt: \n%s \n------",
-                        page.url.toString(),
-                        content.substring(0, (Math.min(content.length(), 50))));
-            }
+            exec.shutdown();
         }
     }
 
@@ -79,7 +73,7 @@ public class SearchEngine {
 //        System.setProperty("proxyHost", "xyz"); // Hier müsste dann ein Proxyhost rein
 //        System.setProperty("proxyPort", "8000");
         SearchEngine searchEngine = new SearchEngine();
-//        searchEngine.exec(); // Lösung die nicht der Aufgabe entspricht
-        searchEngine.exec2();
+        searchEngine.loadURLs("FileExperiments/urls.txt");
+        searchEngine.exec();
     }
 }

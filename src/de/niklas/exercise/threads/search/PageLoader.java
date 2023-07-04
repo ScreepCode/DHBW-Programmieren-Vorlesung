@@ -2,6 +2,7 @@ package de.niklas.exercise.threads.search;
 
 import java.io.*;
 import java.net.*;
+import java.nio.charset.StandardCharsets;
 
 /**
  * <strong>Suchmaschine</strong><br>
@@ -13,18 +14,26 @@ import java.net.*;
  */
 public class PageLoader implements Runnable{
 
-    public static String CHARSET = "UTF-8";
-    public URL url;
-    public String content;
+    private URL url;
+    private String content;
 
     PageLoader(String url) {
         try {
             this.url = new URL(url);
             content = null;
+            new Thread(this).start();
         }
         catch (MalformedURLException ex) {
             ex.printStackTrace();
         }
+    }
+
+    /**
+     * Liefert die URL als String zurück
+     * @return Url als String
+     */
+    public String getUrl() {
+        return this.url.toString();
     }
 
     /**
@@ -41,7 +50,7 @@ public class PageLoader implements Runnable{
      * @return Seiteninhalt
      */
     public String getPageContent() {
-        return content;
+        return content.strip();
     }
 
     /**
@@ -50,12 +59,6 @@ public class PageLoader implements Runnable{
     @Override
     public void run() {
         this.content = getContentAsStringFromUrl();
-
-        // Diese Ausgabe ist für die SearchEngine.exec(), in der exec2() ist es richtig implementiert
-
-//        System.out.printf("------\nGeladen: %s \nInhalt: \n%s \n------",
-//                this.url.toString(),
-//                content.substring(0, (Math.min(content.length(), 50))));
     }
 
     /**
@@ -64,7 +67,7 @@ public class PageLoader implements Runnable{
      */
     public String getContentAsStringFromUrl() {
         StringBuilder buffer = new StringBuilder();
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(this.url.openStream(), CHARSET))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(this.url.openStream(), StandardCharsets.UTF_8))) {
             while (br.ready()) {
                 buffer.append(br.readLine()).append(System.lineSeparator());
             }
