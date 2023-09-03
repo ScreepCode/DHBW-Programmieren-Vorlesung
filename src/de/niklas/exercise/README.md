@@ -26,6 +26,8 @@
 > - [Aufgaben zu Aufzählungstypen](#content_24)
 > - [Aufgaben zu Threads (1)](#content_25.1)
 > - [Aufgaben zu Threads (2)](#content_25.2)
+> - [Aufgaben zu Java 8](#content_26)
+> - [Aufgaben zu XML (1)](#content_27.1)
 
 ## 📗 Dateiauflistung <a name="content"></a>
 
@@ -149,3 +151,6 @@
 ### Aufgaben zu Java 8 <a name="content_26"></a>
 > - [Arbeiten mit Streams](java8/soccer/Soccer.java)
 > - [Zahlenraten (3)](java8/NumberGuessJava8.java)
+
+### Aufgaben zu XML (1) <a name="content_27.1"></a>
+> - [Google-Maps-Gazetteer-Service](xml/Gazetteer.java)
