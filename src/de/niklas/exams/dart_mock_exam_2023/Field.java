@@ -1,4 +1,4 @@
-package de.niklas.exams.mock_exam_2023;
+package de.niklas.exams.dart_mock_exam_2023;
 
 /**
  * <strong>Field</strong><br>

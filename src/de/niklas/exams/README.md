@@ -13,9 +13,9 @@
 ## 📗 Dateiauflistung <a name="content"></a>
 
 ### Probeklausur 2023 <a name="content_01"></a>
-> - [DartsCounter](mock_exam_2023/DartsCounter.java)
-> - [Field](mock_exam_2023/Field.java)
-> - [Board](mock_exam_2023/Board.java)
-> - [Visit](mock_exam_2023/Visit.java)
-> - [Player](mock_exam_2023/Player.java)
-> - [Game](mock_exam_2023/Game.java)
+> - [DartsCounter](dart_mock_exam_2023/DartsCounter.java)
+> - [Field](dart_mock_exam_2023/Field.java)
+> - [Board](dart_mock_exam_2023/Board.java)
+> - [Visit](dart_mock_exam_2023/Visit.java)
+> - [Player](dart_mock_exam_2023/Player.java)
+> - [Game](dart_mock_exam_2023/Game.java)
