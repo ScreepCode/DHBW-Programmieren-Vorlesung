@@ -12,6 +12,7 @@
 > - [Nachhol Klausur 2021 - Chorona](#content_02)
 > - [Klausur 2020 - CoronaWarn](#content_03)
 > - [Klausur 2019 - SoederMemory](#content_04)
+> - [Klausur 2016 - Stadt-Land-Fluss](#content_05)
 
 ## 📗 Dateiauflistung <a name="content"></a>
 
@@ -51,3 +52,11 @@
 > - [PlayerStatus](memory_exam_2019/selfwritten/PlayerStatus.java)
 > - [SoederMemory](memory_exam_2019/provided/SoederMemory.java)
 > - [MemoryImages](memory_exam_2019/provided/MemoryImages.java)
+
+### Klausur 2016 - Stadt-Land-Fluss <a name="content_05"></a>
+> - [ColumnType](stadtlandfluss_exam_2016/selfwritten/ColumnType.java)
+> - [Game](stadtlandfluss_exam_2016/selfwritten/Game.java)
+> - [Player](stadtlandfluss_exam_2016/selfwritten/Player.java)
+> - [Row](stadtlandfluss_exam_2016/selfwritten/Row.java)
+> - [Sheet](stadtlandfluss_exam_2016/selfwritten/Sheet.java)
+> - [StadtLandFluss](stadtlandfluss_exam_2016/provided/StadtLandFluss.java)
