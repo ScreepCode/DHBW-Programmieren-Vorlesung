@@ -5,13 +5,14 @@
 >
 > In diesem Repository befinden sich zum einen meine Aufgabenbearbeitungen, aber auch Probeklausuren. <br>
 > In den Bearbeitungen findet ihr die Aufgabenstellung in gekürzter Form und Kommentare, die beim Verständnis helfen sollten und eine Beispielausgabe.
-> Die ausführlichen Aufgabenstellungen findet ihr im bekannten Portal ^^
+> Die ausführlichen Aufgabenstellungen findet ihr auf bekannten Wegen ^^
 > 
 > #### Bei Fragen oder Anmerkungen zu meinen Lösungen einfach Bescheid geben. ^^
 >
 > ### Inhalte:
-> - [Aufgaben aus der Vorlesung](src/de/niklas/exercise)
-> - [Probeklausuren](src/de/niklas/exams)
+> - [Aufgaben aus der Vorlesung](src/de/niklas/exercise/README.md)
+> - [Probeklausuren](src/de/niklas/exams/README.md)
+> - [Live/File Templates](templates/README.md)
 > 
 
 
