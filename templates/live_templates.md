@@ -1,6 +1,8 @@
 # Live Templates
-> **Anleitung**: IntelliJ → Settings → Live Templates → Template Group anlegen (Bsp. Eigene) → je Template: Live Template <br>
+> **Anleitung**: IntelliJ → Settings → Live Templates → Template Group anlegen (Bsp. Eigene) → je Template: Live Template
+> 
 > **Hinweis**: Abkürzungen und Beschreibung könnt ihr setzen wie ihr wollt.
+> 
 > **Mindestens**:
 > - Abbreviation (müsst ihr schnell darauf kommen, meine Beispiele habe ich dazu geschrieben)
 > - Template text (das Code Fragment)
