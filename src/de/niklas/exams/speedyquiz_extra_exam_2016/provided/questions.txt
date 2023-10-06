@@ -1,0 +1,13 @@
+Antwort auf die Frage nach dem Leben, dem Universum und dem ganzen Rest;40;41;42;43;2
+Der Apfel faellt nicht weit vom...;Zweig;Stamm;Blatt;Stiel;1
+Das Runde muss ins...;Runde;Flache;Hohe;Eckige;3
+Die Jamaika-Flagge enhaelt die Farben Schwarz, Gelb und ...;Rot;Gruen;Magenta;Blau;1
+Der Durchmesser der Erde betraegt...;knapp 13.000km;gut 200.000km;fast 1 Lichtjahr;rund 5.000km;0
+Wie ist HTTP-Status-Code fuer nicht gefundene Seiten?;402;403;404;405;2
+Wie viele Drittel ergeben ein Ganzes?;1;2;3;4;2
+Berechnen Sie die elektr. Spannung!;P=U*I;E=mc²;U=R*I;F=m*a;2
+"Rien ne va plus!" hoert man beim...;Black Jack;Skat;Mau-Mau;Roulette;3
+1, 1, 2, 3, 4, 8, 13, ...;20;21;22;23;1
+DuckTales ...;Oh-Oh!;Hey!;Ho-Ho!;Whoo-Huh!;3
+Fehler in Software werden genannt wie ein...;krabbelndes Insekt;Suesswasserfisch;flugunfaehiger Vogel;Nachtschattengewaechse;0
+Im Mobilfunk: LTE - Long Term _____;Endorsed;Emitter;Evolution;Example;2
