@@ -8,13 +8,12 @@ public class BettingTerm extends JFrame {
 
     private Player player;
     private List<Match> matches;
-    Iterator<Match> matchIterator;
-    Match activeMatch;
+    private Iterator<Match> matchIterator;
+    private Match activeMatch;
     private FasidTerm fasidTerm;
     private JLabel headingLabel, detailsLabel;
-    JButton betButton;
-    ButtonGroup buttonGroup;
-    JRadioButton homeRadio, drawRadio, guestRadio, fasidRadio;
+    private JButton betButton;
+    private ButtonGroup buttonGroup;
 
 
     public BettingTerm(Player player, List<Match> matches, FasidTerm fasidTerm) {
@@ -50,18 +49,13 @@ public class BettingTerm extends JFrame {
     private JPanel renderButtons() {
         JPanel buttonPanel = new JPanel();
         buttonGroup = new ButtonGroup();
-        homeRadio = new JRadioButton(ResultType.HOME.getLabel());
-        drawRadio = new JRadioButton(ResultType.DRAW.getLabel());
-        guestRadio = new JRadioButton(ResultType.GUEST.getLabel());
-        fasidRadio = new JRadioButton(ResultType.FASID.getLabel());
-        buttonGroup.add(homeRadio);
-        buttonPanel.add(homeRadio);
-        buttonGroup.add(drawRadio);
-        buttonPanel.add(drawRadio);
-        buttonGroup.add(guestRadio);
-        buttonPanel.add(guestRadio);
-        buttonGroup.add(fasidRadio);
-        buttonPanel.add(fasidRadio);
+        for(ResultType type : ResultType.values()){   // for all enum values
+            if(type == ResultType.UNKNOWN) continue;  // used to skip enum values
+            JRadioButton radioButton = new JRadioButton(type.getLabel());
+            radioButton.setActionCommand(type.getLabel()); // way to get a String from selected button to check
+            buttonGroup.add(radioButton);
+            buttonPanel.add(radioButton);
+        }
         return buttonPanel;
     }
 
@@ -79,17 +73,19 @@ public class BettingTerm extends JFrame {
     }
 
     public void saveBet(){
+        String actionCommand = buttonGroup.getSelection().getActionCommand();
+
         if(buttonGroup.getSelection() != null){
-            if(homeRadio.isSelected()){
+            if (actionCommand.equals(ResultType.HOME.getLabel())){
                 activeMatch.setResultType(ResultType.HOME);
             }
-            else if(drawRadio.isSelected()){
+            else if(actionCommand.equals(ResultType.DRAW.getLabel())) {
                 activeMatch.setResultType(ResultType.DRAW);
             }
-            else if(guestRadio.isSelected()){
+            else if(actionCommand.equals(ResultType.GUEST.getLabel())) {
                 activeMatch.setResultType(ResultType.GUEST);
             }
-            else if(fasidRadio.isSelected()){
+            else if(actionCommand.equals(ResultType.FASID.getLabel())) {
                 activeMatch.setResultType(ResultType.FASID);
             }
             fasidTerm.reportBet(player, activeMatch);
