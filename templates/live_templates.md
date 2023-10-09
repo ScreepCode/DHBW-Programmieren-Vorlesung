@@ -74,3 +74,29 @@ this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 this.setVisible(true);
 ```
 ---
+
+> ### Abkürzung: buttonGroupEnum
+> Beschreibung: ButtonGroup with Enum (mehr Anpassung im Anwendungsfall erforderlich)
+``` java
+// actionPanel = renderButtons();
+private JPanel renderButtons() {
+    JPanel buttonPanel = new JPanel();
+    buttonGroup = new ButtonGroup();
+    for(ResultType type : ResultType.values()){   // for all enum values
+        if(type == ResultType.UNKNOWN) continue;  // used to skip enum values
+        JRadioButton radioButton = new JRadioButton(type.getLabel());
+        radioButton.setActionCommand(type.getLabel()); // way to get a String from selected button to check
+        buttonGroup.add(radioButton);
+        buttonPanel.add(radioButton);
+    }
+    return buttonPanel;
+}
+
+// Im Aktion Listener:
+// if(buttonGroup.getSelection() != null){
+//   if (actionCommand.equals(ResultType.HOME.getLabel())){
+//        activeMatch.setResultType(ResultType.HOME);
+//    }
+//    ...
+```
+---
