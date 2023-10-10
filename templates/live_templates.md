@@ -25,7 +25,7 @@ catch (NumberFormatException | IOException ex) {
 ---
 
 > ### Abkürzung: nioWrite
-> Beschreibung: Eine Zeile in eine Datei schreiben mit java.nio
+> Beschreibung: Eine Zeile in einer Datei anhängen mit java.nio
 ``` java
 String filename = "$FILENAME$.txt";
 String line = "$CONTENT$";
@@ -98,5 +98,33 @@ private JPanel renderButtons() {
 //        activeMatch.setResultType(ResultType.HOME);
 //    }
 //    ...
+```
+---
+
+> ### Abkürzung: bufferRead
+> Beschreibung: Den Dateiinhalt lesen mit java.io (BufferedReader)
+``` java
+StringBuilder content = new StringBuilder();
+try(BufferedReader bufferedReader = new BufferedReader(new FileReader("$FILENAME$.txt"))){
+    while (bufferedReader.ready()){
+        content.append(bufferedReader.readLine()).append(System.lineSeparator());
+    }
+}
+catch (IOException e) {
+    e.printStackTrace();
+}
+// content.toString()
+```
+---
+
+> ### Abkürzung: bufferWrite
+> Beschreibung: Eine Zeile in einer Datei anhängen mit java.io (BufferedWriter)
+``` java
+String line = "";
+try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("$FILENAME$.txt", true))){
+    bufferedWriter.write(line + System.lineSeparator());            
+} catch (IOException e) {
+    e.printStackTrace();
+}
 ```
 ---
