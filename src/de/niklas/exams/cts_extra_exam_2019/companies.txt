@@ -1,0 +1,30 @@
+Adidas;ADS;Herzogenaurach
+Allianz;ALV;München
+BASF;BAS;Ludwigshafen am Rhein
+Bayer;BAYN;Leverkusen
+Beiersdorf;BEI;Hamburg
+BMW;BMW;München
+Continental;CON;Hannover
+Covestro;1COV;Leverkusen
+Daimler;DAI;Stuttgart
+Deutsche Bank;DBK;Frankfurt am Main
+Deutsche Börse;DB1;Frankfurt am Main
+Deutsche Lufthansa;LHA;Köln
+Deutsche Post;DPW;Bonn
+Deutsche Telekom;DTE;Bonn
+E.ON;EOAN;Essen
+Fresenius;FRE;Bad Homburg vor der Höhe
+Fresenius Medical Care;FME;Hof an der Saale
+HeidelbergCement;HEI;Heidelberg
+Henkel;HEN3;Düsseldorf
+Infineon Technologies;IFX;Neubiberg
+Linde;LIN;Dublin
+Merck;MRK;Darmstadt
+MTU Aero Engines;MTX;München
+Munich Re;MUV2;München
+RWE;RWE;Essen
+SAP;SAP;Walldorf
+Siemens;SIE;Berlin und München
+Volkswagen;VOW3;Wolfsburg
+Vonovia;VNA;Bochum
+Wirecard;WDI;Aschheim
