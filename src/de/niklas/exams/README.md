@@ -14,6 +14,7 @@
 > - [Nachhol Klausur 2021 - Chorona](#chorona_extra_exam_2021)
 > - [Klausur 2020 - CoronaWarn](#coronaWarn_exam_2020)
 > - [Klausur 2019 - SoederMemory](#memory_exam_2019)
+> - [Nachhol Klausur 2019 - CTS](#cts_extra_exam_2019)
 > - [Klausur 2016 - Stadt-Land-Fluss](#stadtlandfluss_exam_2016)
 
 ## 📗 Dateiauflistung <a name="content"></a>
@@ -77,6 +78,13 @@
 > - [PlayerStatus](memory_exam_2019/selfwritten/PlayerStatus.java)
 > - [SoederMemory](memory_exam_2019/provided/SoederMemory.java)
 > - [MemoryImages](memory_exam_2019/provided/MemoryImages.java)
+
+### Nachhol Klausur 2019 - CTS <a name="#cts_extra_exam_2019"></a>
+> - [Company](cts_extra_exam_2019/Company.java)
+> - [CompanyTerm](cts_extra_exam_2019/CompanyTerm.java)
+> - [CTS](cts_extra_exam_2019/CTS.java)
+> - [GreenhouseGas](cts_extra_exam_2019/GreenhouseGas.java)
+> - [StockExchangeTerm](cts_extra_exam_2019/StockExchangeTerm.java)
 
 ### Klausur 2016 - Stadt-Land-Fluss <a name="stadtlandfluss_exam_2016"></a>
 > - [ColumnType](stadtlandfluss_exam_2016/selfwritten/ColumnType.java)
