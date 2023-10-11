@@ -8,7 +8,8 @@
 > Setzte das Working-Directory, damit es richtig ausgeführt werden kann, sonst werden die Lokalen Dateien ggf. nicht gefunden
 
 > ### Bisher bearbeitete Klausuren:
-> - [Probeklausur 2023 - Dart](#dart_mock_exam_2023)
+> - [Probeklausur SnatChat](#snatchat_mock_exam)
+> - [(Probeklausur 2023 - Dart)](#dart_mock_exam_2023)
 > - [Klausur 2022 - FakeTalk](#fakeTalk_exam_2022)
 > - [Nachhol Klausur 2022 - Fasid](#fasid_extra_exam_2022)
 > - [Nachhol Klausur 2021 - Chorona](#chorona_extra_exam_2021)
@@ -19,7 +20,17 @@
 
 ## 📗 Dateiauflistung <a name="content"></a>
 
-### Probeklausur 2023 - Dart <a name="dart_mock_exam_2023"></a>
+### Probeklausur SnatChat <a name="snatchat_mock_exam"></a>
+> - [Account](snatchat_mock_exam/Account.java)
+> - [ChatMessagesComponent](snatchat_mock_exam/ChatMessagesComponent.java)
+> - [Message](snatchat_mock_exam/Message.java)
+> - [SnatChat](snatchat_mock_exam/SnatChat.java)
+> - [SnatChatFrontend](snatchat_mock_exam/SnatChatFrontend.java)
+> - [SnatChatRoom](snatchat_mock_exam/SnatChatRoom.java)
+> - [SnatChatWindow](snatchat_mock_exam/SnatChatWindow.java)
+> - [State](snatchat_mock_exam/State.java)
+
+### (Probeklausur 2023 - Dart) <a name="dart_mock_exam_2023"></a>
 > - [DartsCounter](dart_mock_exam_2023/DartsCounter.java)
 > - [Field](dart_mock_exam_2023/Field.java)
 > - [Board](dart_mock_exam_2023/Board.java)
