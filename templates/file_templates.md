@@ -6,8 +6,6 @@
 > **Hinweis**: Die Templates kannst du so übernehmen, natürlich auch anpassen, wenn du weißt, was machst :)
 >
 > **Mindestens**: Name & Template Inhalt
- 
-
 
 ---
 
