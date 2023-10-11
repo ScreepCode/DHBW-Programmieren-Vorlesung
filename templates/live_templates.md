@@ -15,12 +15,11 @@
 ``` java
 String filename = "$FILENAME$.txt";
 try {
-    Files.readAllLines(Paths.get(filename)) // als Stream weiterverarbeiten
+    java.nio.file.Files.readAllLines(java.nio.file.Paths.get(filename)) // als Stream weiterverarbeiten
             .forEach(line -> tokens.add(parseToken(line))); // z.B.
-} 
-catch (NumberFormatException | IOException ex) {
+} catch (NumberFormatException | java.io.IOException ex) {
     System.err.printf("Read error: %s%n", ex.getLocalizedMessage());
-} 
+}
 ```
 ---
 
@@ -30,13 +29,13 @@ catch (NumberFormatException | IOException ex) {
 String filename = "$FILENAME$.txt";
 String line = "$CONTENT$";
 try {
-    Files.writeString(Paths.get(filename), 
-        line + System.lineSeparator(), 
-        StandardOpenOption.APPEND, 
-        StandardOpenOption.CREATE
+    java.nio.file.Files.writeString(java.nio.file.Paths.get(filename),
+            line + System.lineSeparator(),
+            java.nio.file.StandardOpenOption.APPEND,
+            java.nio.file.StandardOpenOption.CREATE
     );
-} catch (IOException ex) {
-    JOptionPane.showMessageDialog(null, ex.getMessage());
+} catch (java.io.IOException ex) {
+    javax.swing.JOptionPane.showMessageDialog(null, ex.getMessage());
 }
 ```
 ---
@@ -44,7 +43,7 @@ try {
 > ### Abkürzung: optionInfo
 > Beschreibung: Erstellt eine JOptionPane, die nur zur Information dient
 ``` java
-JOptionPane.showMessageDialog(null, "Anzeigetext", "Titel", JOptionPane.INFORMATION_MESSAGE);
+javax.swing.JOptionPane.showMessageDialog(null, "Anzeigetext", "Titel", javax.swing.JOptionPane.INFORMATION_MESSAGE);
 ```
 ---
 
@@ -52,8 +51,8 @@ JOptionPane.showMessageDialog(null, "Anzeigetext", "Titel", JOptionPane.INFORMAT
 > Beschreibung: Erstellt ein JOptionPane mit verschiedenen Überprüfungen (und Optionsprüfung für Ja-Option)
 ``` java
 String[] opts = { "Ja", "Nein"};
-int popup = JOptionPane.showOptionDialog(null, "Anzeigetext","Titel", JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, opts, opts[0]);
-if (popup == JOptionPane.YES_OPTION) {
+int popup = javax.swing.JOptionPane.showOptionDialog(null, "Anzeigetext","Titel", javax.swing.JOptionPane.YES_NO_OPTION, javax.swing.JOptionPane.QUESTION_MESSAGE, null, opts, opts[0]);
+if (popup == javax.swing.JOptionPane.YES_OPTION) {
     System.exit(0);
 }
 ```
@@ -62,11 +61,14 @@ if (popup == JOptionPane.YES_OPTION) {
 > ### Abkürzung: initGUI
 > Beschreibung: mit 'extends JFrame' Codeerweiterung für den Konstrukter
 ``` java
-this.setTitle("Fenstertitel");
-this.setLayout(new FlowLayout());
-JPanel mainPanel = new JPanel();
+this.setTitle(String.format("%s", "Titel"));
+javax.swing.JPanel northPanel = new JPanel();
+JPanel centerPanel = new JPanel();
+JPanel southPanel = new JPanel();
 
-this.add(mainPanel);
+this.add(northPanel, java.awt.BorderLayout.NORTH);
+this.add(centerPanel, BorderLayout.CENTER);
+this.add(southPanel, BorderLayout.SOUTH);
 // this.pack();
 this.setSize(500, 600);
 this.setLocationRelativeTo(null);
@@ -79,12 +81,12 @@ this.setVisible(true);
 > Beschreibung: ButtonGroup with Enum (mehr Anpassung im Anwendungsfall erforderlich)
 ``` java
 // actionPanel = renderButtons();
-private JPanel renderButtons() {
-    JPanel buttonPanel = new JPanel();
-    buttonGroup = new ButtonGroup();
+private javax.swing.JPanel renderButtons() {
+    javax.swing.JPanel buttonPanel = new javax.swing.JPanel();
+    buttonGroup = new javax.swing.ButtonGroup();
     for(ResultType type : ResultType.values()){   // for all enum values
         if(type == ResultType.UNKNOWN) continue;  // used to skip enum values
-        JRadioButton radioButton = new JRadioButton(type.getLabel());
+        javax.swing.JRadioButton radioButton = new javax.swing.JRadioButton(type.getLabel());
         radioButton.setActionCommand(type.getLabel()); // way to get a String from selected button to check
         buttonGroup.add(radioButton);
         buttonPanel.add(radioButton);
@@ -105,12 +107,12 @@ private JPanel renderButtons() {
 > Beschreibung: Den Dateiinhalt lesen mit java.io (BufferedReader)
 ``` java
 StringBuilder content = new StringBuilder();
-try(BufferedReader bufferedReader = new BufferedReader(new FileReader("$FILENAME$.txt"))){
+try(java.io.BufferedReader bufferedReader = new java.io.BufferedReader(new java.io.FileReader("$FILENAME$.txt"))){
     while (bufferedReader.ready()){
         content.append(bufferedReader.readLine()).append(System.lineSeparator());
     }
 }
-catch (IOException e) {
+catch (java.io.IOException e) {
     e.printStackTrace();
 }
 // content.toString()
@@ -121,9 +123,9 @@ catch (IOException e) {
 > Beschreibung: Eine Zeile in einer Datei anhängen mit java.io (BufferedWriter)
 ``` java
 String line = "";
-try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("$FILENAME$.txt", true))){
+try(java.io.BufferedWriter bufferedWriter = new java.io.BufferedWriter(new java.io.FileWriter("$FILENAME$.txt", true))){
     bufferedWriter.write(line + System.lineSeparator());            
-} catch (IOException e) {
+} catch (java.io.IOException e) {
     e.printStackTrace();
 }
 ```
