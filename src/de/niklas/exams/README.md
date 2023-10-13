@@ -2,20 +2,18 @@
 
 > ## Disclaimer!!!
 > Diese Aufgaben haben keine Garantie auf Vollständigkeit oder Richtigkeit! <br>
-> Ich gebe mein bestes aber es können Fehler enthalten sein. Und auch die Dokumentierung hat zuletzt gelitten <br>
+> Diese Klausuren wurden für unseren Jahrgang offiziell zur Verfügung gestellt und ich habe die Erlaubnis, meine Bearbeitungen hier hochzuladen <br>
+> Ich habe mein Bestes gegeben, aber es können Fehler enthalten sein. Und auch die Dokumentierung hat zuletzt gelitten <br>
 > Die ausführlichen Aufgabenstellungen findet ihr wie bereits bekannt auf anderen Wegen ^^
-> ## Wichtig: 
+> ## Wichtig:
 > Setzte das Working-Directory, damit es richtig ausgeführt werden kann, sonst werden die Lokalen Dateien ggf. nicht gefunden
 
 > ### Bisher bearbeitete Klausuren:
 > - [Probeklausur SnatChat](#snatchat_mock_exam)
 > - [(Probeklausur 2023 - Dart)](#dart_mock_exam_2023)
-> - [Klausur 2022 - FakeTalk](#fakeTalk_exam_2022)
-> - [Nachhol Klausur 2022 - Fasid](#fasid_extra_exam_2022)
 > - [Nachhol Klausur 2021 - Chorona](#chorona_extra_exam_2021)
 > - [Klausur 2020 - CoronaWarn](#coronaWarn_exam_2020)
 > - [Klausur 2019 - SoederMemory](#memory_exam_2019)
-> - [Nachhol Klausur 2019 - CTS](#cts_extra_exam_2019)
 > - [Klausur 2016 - Stadt-Land-Fluss](#stadtlandfluss_exam_2016)
 
 ## 📗 Dateiauflistung <a name="content"></a>
@@ -37,29 +35,6 @@
 > - [Visit](dart_mock_exam_2023/Visit.java)
 > - [Player](dart_mock_exam_2023/Player.java)
 > - [Game](dart_mock_exam_2023/Game.java)
-
-### Klausur 2022 - FakeTalk - Dart <a name="fakeTalk_exam_2022"></a>
-> - [FakeNewsException](fakeTalk_exam_2022/selfwritten/FakeNewsException.java)
-> - [FakeTalkClient](fakeTalk_exam_2022/selfwritten/FakeTalkClient.java)
-> - [Quote](fakeTalk_exam_2022/selfwritten/Quote.java)
-> - [QuoteButton](fakeTalk_exam_2022/selfwritten/QuoteButton.java)
-> - [QuoteSelectionTerm](fakeTalk_exam_2022/selfwritten/QuoteSelectionTerm.java)
-> - [QuoteTerm](fakeTalk_exam_2022/selfwritten/QuoteTerm.java)
-> - [QuoteType](fakeTalk_exam_2022/selfwritten/QuoteType.java)
-> - [FalkTalk](fakeTalk_exam_2022/provided/FakeTalk.java)
-> - [FalkTalkIcons](fakeTalk_exam_2022/provided/FakeTalkIcons.java)
-> - [QuoteDisplay](fakeTalk_exam_2022/provided/QuoteDisplay.java)
-
-### Nachhol Klausur 2022 - Fasid <a name="fasid_extra_exam_2022"></a>
-> - [BettingTerm](fasid_extra_exam_2022/selfwritten/BettingTerm.java)
-> - [CorruptionPrevention](fasid_extra_exam_2022/selfwritten/CorruptionPrevention.java)
-> - [FasidException](fasid_extra_exam_2022/selfwritten/FasidException.java)
-> - [FasidTerm](fasid_extra_exam_2022/selfwritten/FasidTerm.java)
-> - [Match](fasid_extra_exam_2022/selfwritten/Match.java)
-> - [Player](fasid_extra_exam_2022/selfwritten/Player.java)
-> - [ResultType](fasid_extra_exam_2022/selfwritten/ResultType.java)
-> - [FasidAlarmLabel](fasid_extra_exam_2022/provided/FasidAlarmLabel.java)
-> - [FasidWorldCup](fasid_extra_exam_2022/provided/FasidWorldCup.java)
 
 ### Nachhol Klausur 2021 - Chorona <a name="chorona_extra_exam_2021"></a>
 > - [AHAException](chorona_extra_exam_2021/selfwritten/AHAException.java)
@@ -89,13 +64,6 @@
 > - [PlayerStatus](memory_exam_2019/selfwritten/PlayerStatus.java)
 > - [SoederMemory](memory_exam_2019/provided/SoederMemory.java)
 > - [MemoryImages](memory_exam_2019/provided/MemoryImages.java)
-
-### Nachhol Klausur 2019 - CTS <a name="#cts_extra_exam_2019"></a>
-> - [Company](cts_extra_exam_2019/Company.java)
-> - [CompanyTerm](cts_extra_exam_2019/CompanyTerm.java)
-> - [CTS](cts_extra_exam_2019/CTS.java)
-> - [GreenhouseGas](cts_extra_exam_2019/GreenhouseGas.java)
-> - [StockExchangeTerm](cts_extra_exam_2019/StockExchangeTerm.java)
 
 ### Klausur 2016 - Stadt-Land-Fluss <a name="stadtlandfluss_exam_2016"></a>
 > - [ColumnType](stadtlandfluss_exam_2016/selfwritten/ColumnType.java)
